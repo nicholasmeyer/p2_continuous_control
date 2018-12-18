@@ -66,15 +66,15 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ```
 Usage: 
 
-python navigation.py [--n_episodes] <n_episodes> 
-                     [--seed] <seed> 
-                     [--buffer_size] <buffer_size> 
-                     [--batch_size] <batch_size> 
-                     [--gamma] <gamma> 
-                     [--tau] <tau> 
-                     [--lr_actor] <lr> 
-                     [--lr_critic] <lr> 
-                     [--train_test] <train_test>
+python continuous_control.py [--n_episodes] <n_episodes> 
+                     		 [--seed] <seed> 
+                     		 [--buffer_size] <buffer_size> 
+                     		 [--batch_size] <batch_size> 
+                     		 [--gamma] <gamma> 
+                     		 [--tau] <tau> 
+                     		 [--lr_actor] <lr> 
+                     		 [--lr_critic] <lr> 
+                     		 [--train_test] <train_test>
 
 Options: 
 

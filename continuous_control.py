@@ -112,7 +112,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Udacity Deep Reinforcement Learning Nano Degree - Project 2 Continuous Control')
     parser.add_argument('--n_episodes', metavar='', type=int,
-                        default=1000, help='maximum number of training episodes')
+                        default=200, help='maximum number of training episodes')
     parser.add_argument('--seed', metavar='', type=int,
                         default=0, help='seed for stochastic variables')
     parser.add_argument('--buffer_size', metavar='', type=int,
